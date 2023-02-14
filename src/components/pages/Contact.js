@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import './style.css';
 
 // import helper function to check for valid email address
 import { checkMessage, validateEmail } from '../utils/helpers';
