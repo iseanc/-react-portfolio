@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 
-function Footer() {
-  const message = "I'm the Footer"
-
+const Footer = () => {
   return (
-    <div className='footer' id='footer'>
-      <footer>
-        <p>{message}</p>
-      </footer>
-    </div>
-  )
-}
+    <footer className="w-100 mt-auto text-dark p-4">
+      <div className="container text-center mb-5">
+        <h4>&copy; {new Date().getFullYear()} - Sean Collins</h4>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
